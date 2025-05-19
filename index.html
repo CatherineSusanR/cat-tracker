@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cat Tracker</title>
+  <meta charset="UTF-8">
+  <title>Cat Tracker 🐾</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🐱 Cat Tracker</h1>
+  <div class="container">
+    <h1>🐱 Cat Tracker</h1>
 
-  <h2>Feeding</h2>
-  <p>Fed at: <span id="feeding-time">Not yet</span></p>
-  <button onclick="markFeeding()">Mark as Fed</button>
+    <section class="card">
+      <h2>🍽️ Feeding Time</h2>
+      <p>Last fed at: <span id="feeding-time">Not yet 😿</span></p>
+      <button onclick="markFeeding()">Mark as Fed</button>
+    </section>
 
-  <h2>Mood</h2>
-  <select id="mood-select">
-    <option>Happy</option>
-    <option>Sleepy</option>
-    <option>Playful</option>
-    <option>Grumpy</option>
-  </select>
-  <button onclick="saveMood()">Save Mood</button>
-  <p>Current mood: <span id="mood">Not set</span></p>
+    <section class="card">
+      <h2>😺 Mood Check</h2>
+      <select id="mood-select">
+        <option>Happy</option>
+        <option>Sleepy</option>
+        <option>Playful</option>
+        <option>Grumpy</option>
+      </select>
+      <button onclick="saveMood()">Save Mood</button>
+      <p>Current mood: <span id="mood">Not set 😶</span></p>
+    </section>
+  </div>
 
   <script src="script.js"></script>
 </body>
