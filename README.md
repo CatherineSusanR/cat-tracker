@@ -19,7 +19,7 @@ Because yes, your cat *does* deserve a personal dashboard. 💅
 
 ---
 
-## 🖼️ Screenshot
+## Here's a cat
 
 ![cat-vibes](https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif)  
 > This could be your cat's mood right now.
