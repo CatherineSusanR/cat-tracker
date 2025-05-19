@@ -1,6 +1,6 @@
 # Cat Tracker
 
-Track your cat's vibes, 🍽 feeding times, and 👩‍⚕ health — all in one simple, adorable little web app.
+Track your cat's vibes,  feeding times, and  health — all in one simple, adorable little web app.
 
 ---
 
