@@ -1,20 +1,76 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background: #fffbe6;
+/* 🐾 Soft Cat Tracker Glow-Up */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff5f9;
     color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
   }
   
   h1 {
-    color: #ff6f61;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff80ab;
+  }
+  
+  .card {
+    background: #ffe4f2;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .card h2 {
+    color: #ff4d88;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 10px 0;
+    font-size: 1rem;
   }
   
   button {
-    margin-top: 5px;
-    padding: 6px 10px;
-    background-color: #ffe9a7;
-    border: 1px solid #d9b200;
+    background-color: #ffcce5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
     cursor: pointer;
-    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #ff99cc;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
   }
   
